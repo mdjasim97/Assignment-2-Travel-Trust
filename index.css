@@ -198,7 +198,7 @@ span{
     margin-top: 100px;
 }
 
-.place-title{
+.title{
     color: #131318;
     text-align: center;
     font-family: 'Mulish';
@@ -207,7 +207,7 @@ span{
     font-weight: 800;
 }
 
-.place-desc{
+.title-desc{
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: 'Mulish';
@@ -244,4 +244,58 @@ span{
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 30px;
+}
+
+.card-container{
+    justify-content: center;
+}
+
+.card-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1{
+    background-color: #f5f1f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+.card-2{
+    background-color: #bceaf8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.card-3{
+    background-color: #f5d5cd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 25px auto;
+}
+
+.card-icon{
+    height: 100px;
+    width: 100px;
+}
+
+.card-title{
+    color: #131318;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.card-desc{
+    color: #5A5A5D;
+    font-family: 'Mulish';
+    font-size: 18px;
+    margin: 15px 15px 15px 0px;
+    font-style: normal;
+    font-weight: 400;
 }
