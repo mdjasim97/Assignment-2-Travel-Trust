@@ -75,8 +75,7 @@ span{
     font-size: 20px;
 }
 
-.list-nav
-{
+.list-nav{
     list-style: none;
 }
 
@@ -547,3 +546,61 @@ footer{
     text-align: center;
     margin: 20px 0px 100px 0px;
 }
+
+
+@media screen and (max-width: 600px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+/* ===== Header responsive start for mobile start ============ */
+    
+    header{
+        background-color: #fff;
+    }
+
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .menu{
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu > ul {
+        flex-direction: column;
+        text-align: center;
+        background-color: #eb4c29;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .menu > ul > li {
+        background-color: #eb4c29;
+        margin: 10px;
+        font-size: 24px;
+    } 
+
+    .menu > ul > li > a {
+        color: #fff;
+    }
+
+    .menu > ul > li > a:hover {
+        color: #000;
+        background-color: #fff;
+        padding: 10px;
+    }
+
+/* ======== Header responsive end for mobile end ========== */
+    
+}
+
