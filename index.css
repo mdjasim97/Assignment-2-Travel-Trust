@@ -214,9 +214,14 @@ span{
 }
 
 
+
+
+
+
+
+
 .place{
-    /* text-align: center; */
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .title{
@@ -241,8 +246,6 @@ span{
 
 .img-container{
     display: flex;
-    justify-content: space-between;
-    /* grid-template-columns: repeat(2, 1fr); */
 }
 
 .img-row{
@@ -252,9 +255,8 @@ span{
 }
 
 .img{
-    width: 100%;
-    height: 250px;
     margin: 20px;
+    width: 100%;
     
 }
 
@@ -675,6 +677,37 @@ footer{
   }
 
 /* ======== Popular packages responsive end for mobile end ========== */
+
+
+
+/* ======== Image gallery responsive start for mobile start ========== */
+.place {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.title-desc{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.img-container {
+    flex-direction: column;
+  }
+
+  .img-row{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .img{
+    margin: 10px 0px;
+    padding: 0px;
+  }
+
+
+/* ======== Image gallery responsive end for mobile end ========== */
     
 }
 
