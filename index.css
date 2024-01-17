@@ -153,7 +153,6 @@ span{
     width: 20px;
     margin-right: 10px;
     color: #fff;
-    
 }
 
 
@@ -183,13 +182,13 @@ span{
     margin-bottom: 10px;
 }
 
-.popular-desc{
+.popular-tour-desc{
     color: #131318;
     font-size: 18px;
 }
 
 .popular-list{
-    padding: 20px;
+    padding: 10px;
 }
 
 .popular-package{
@@ -197,11 +196,10 @@ span{
     margin: 10px;
 }
 
-.popular-tour-btn{
+.popular-btn{
     margin-top: 30px;
     width: 174px;
     height: 52px;
-    margin-bottom: 50px;
 }
 
 .popular-img-container{
@@ -215,14 +213,14 @@ span{
 
 
 
+/* Gallery section Start */
 
+.img-gallery{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}  
 
-
-
-
-.place{
-    margin-top: 50px;
-}
 
 .title{
     color: #131318;
@@ -231,6 +229,7 @@ span{
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
+    margin: 50px  0px 25px 0px;
 }
 
 .title-desc{
@@ -244,34 +243,110 @@ span{
     font-weight: 400;
 }
 
-.img-container{
+
+.row-1{
+    width: 100%;
     display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
 }
 
-.img-row{
+.img-area{
     width: 50%;
-    margin: 0px 20px 0px 0px;
     position: relative;
 }
 
 .img{
-    margin: 20px;
     width: 100%;
-    
 }
 
-.img-title{
+.name{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
 }
 
-.card-container{
-    justify-content: center;
+
+
+.row-2{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 30px;
 }
+
+.img-area-25{
+    width: 25%;
+    position: relative;
+}
+
+.r2-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.r2-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 40px;
+}
+
+
+
+
+
+.row-3{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.img-area-35{
+    width: 35%;
+    position: relative;
+}
+
+.r3-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.img-area-65{
+    width: 65%;
+    position: relative;
+}
+
+
+.r3-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 40px;
+}
+
+/* Gallery section End */
+
+
+
+
+
+
+/* Why Choose Section Start */
+.card-container{
+    justify-content: space-between;
+}
+
 
 .card-row{
     display: flex;
@@ -281,6 +356,7 @@ span{
 .card-1{
     background-color: #f5f1f0;
     padding: 20px;
+    width: 50%;
     border-radius: 10px;
     margin-right: 10px;
 }
@@ -289,6 +365,7 @@ span{
 .card-2{
     background-color: #bceaf8;
     padding: 20px;
+    width: 50%;
     border-radius: 10px;
     margin-left: 10px;
 }
@@ -323,97 +400,24 @@ span{
     font-weight: 400;
 }
 
+/* Why Choose Section End */
 
 
 
-.deals-container{
-    background-image: url("./images/Group 39.png");
-    background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
-    padding: 50px 50px 50px 50%;
-    background-size: cover;
-    position: relative;
-    margin-top: 50px;
-}
-
-.deals-card-1{
-    border-radius: 16px;
-    border: 2px solid #b12121;
-    background: rgba(255, 255, 255, 0.80);
-    height: 450px;
-    margin: 0px auto;
-    padding: 80px;
-    background-color: #fff;
-    opacity: 0.8;
-    width: 100%;
-}
-
-.deals-info{
-    display: flex;
-    justify-content: space-between;
-}
-
-.deals-title{
-    color: #131318;
-    font-family: 'Mulish';
-    font-size: 24px;
-    margin: 30px 0px 15px 0px;
-    font-style: normal;
-    font-weight: 800;
-}
-
-.deals-desc{
-    color: #5A5A5D;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 162.5% */
-}
-
-
-.deals-subtitle{
-    color: #FF5400;
-    font-family: 'Mulish';
-    font-size: 20px;
-    margin: 15px 0px;
-    font-style: normal;
-    font-weight: 800;
-}
 
 
 
-.deals-container-2{
-    background-image: url("./images/Group 40.png");
-    background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
-    padding: 50px 50% 50px 50px;
-    background-size: cover;
-    position: relative;
-    margin-top: 50px;
-}
+/* Deals Section Start */
 
 
-
-.deals-card-2{
-    border-radius: 16px;
-    border: 2px solid #b12121;
-    background: rgba(255, 255, 255, 0.80);
-    height: 450px;
-    margin: 0px auto;
-    padding: 80px;
-    background-color: #fff;
-    opacity: 0.8;
-    width: 100%;
-}
 
 .btn-pack{
     text-align: center;
     justify-content: center;
     margin: 50px auto;
 }
+
+/* Deals Section End */
 
 .newslater-container{
     display: flex;
@@ -652,9 +656,8 @@ footer{
     justify-content: center;
   }
 
-  .banner-btn{
-    width: 100%;
-    height: 50px;
+  .popular-btn{
+    margin-bottom: 50px;
   }
 /* ======== Banner responsive end for mobile end ========== */
 
@@ -679,35 +682,155 @@ footer{
 /* ======== Popular packages responsive end for mobile end ========== */
 
 
+/* ======== Gallery responsive start for mobile start ========== */
+.title {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
 
-/* ======== Image gallery responsive start for mobile start ========== */
-.place {
-    text-align: center;
-    margin-top: 0px;
-}
+  .title-desc{
+    width: 100%;
+  }
 
-.title-desc{
-    width: 90%;
-    margin: 20px auto;
-}
 
-.img-container {
+  .row-1{
     flex-direction: column;
   }
 
-  .img-row{
+  .img-area{
     width: 100%;
+  }
+
+  .row-2{
+    flex-direction: column;
+  }
+
+  .img-area-25{
+    width: 100%;
+  }
+
+
+  .row-3{
+    flex-direction: column;
+  }
+
+  .img-area-35{
+    width: 100%;
+  }
+
+  .img-area-65{
+    width: 100%;
+  }
+/* ======== Gallery responsive end for mobile end ========== */
+
+
+
+
+/* ======== Why choose responsive start for mobile start ========== */
+
+.card-row {
+    flex-direction: column;
+  }
+
+  .card-1 {
+    padding: 30px 50px;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+
+  .card-2 {
+    padding: 30px 50px;
+    width: 100%;
+    margin: 25px 0px;
+  }
+
+  .card-3 {
+    padding: 30px 50px;
+    width: 100%;
+    margin: 0;
+  }  
+
+/* ======== Why choose responsive end for mobile end ========== */
+
+
+
+
+
+/* ======== Deals & Discount responsive start for mobile start ========== */
+
+
+
+
+
+/* ======== Deals & Discount responsive end for mobile end ========== */
+
+
+
+
+
+/* ======== newslater Section responsive start for mobile start ========== */
+.newslater-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px;
     margin: 0px;
-    padding: 0px;
-  }
-
-  .img{
-    margin: 10px 0px;
-    padding: 0px;
   }
 
 
-/* ======== Image gallery responsive end for mobile end ========== */
+  .newslater {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 2px solid #eb4c29;
+  }
+
+
+.newslater-img-container {
+  width: 100%;
+  height: auto;
+}
+
+/* ======== newslater Section responsive end for mobile end ========== */
+
+
+
+/* ====== Footer responsive start for mobile start ========== */
+
+footer{
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.footer-content {
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    line-height: 26px;
+  }
+
+  .footer-logo {
+    width: 400px;
+  }
+
+  .icons {
+    text-align: center;
+    margin: 0px;
+  }
+
+  .footer-hr{
+    margin: 25px auto;
+    width: 90%;
+  }
+
+  .copyright{
+    padding-bottom: 50px;
+    margin: 0;
+  }
+
+/* ====== Footer responsive end for mobile end ========== */
     
 }
 
