@@ -75,11 +75,16 @@ span{
     font-size: 20px;
 }
 
+.active{
+    color: #eb4c29;
+}
+
 .list-nav{
     list-style: none;
 }
 
 .menu > ul > li > a{
+    font-size: 24px;
     text-decoration: none;
 }
 
@@ -87,6 +92,7 @@ span{
 .banner-img-container{
     position: relative;
 }
+
 
 .banner-img{
     width: 100%;
@@ -103,14 +109,13 @@ span{
 
 
 .banner-title{
-    padding-top: 150px;
     font-size: 50px;
     text-align: center;
     color: #fff;
 }
 
 .banner-desc{
-    width: 500px;
+    width: 400px;
     text-align: center;
     margin: 15px auto;
     color: #ebebeb;
@@ -145,6 +150,18 @@ span{
     border: none;
     border-radius: 10px;
     color: #fff;
+    font-size: 20px;
+}
+
+
+.btn-style:hover{
+    display: flex;
+    background-color: #15dd51;
+    align-items: center;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 10px;
+    color: #000;
     font-size: 20px;
 }
 
@@ -205,6 +222,7 @@ span{
 .popular-img-container{
     width: 50%;
 }
+
 
 .popular-img{
     width: 100%;
@@ -468,8 +486,18 @@ span{
 .Subscribe-btn{
     width: 100%;
     margin-top: 15px;
-    padding: 10px;
+    padding: 5px 25px;
     justify-content: center;
+    font-size: 24px;
+}
+
+.Subscribe-btn:hover{
+    background-color: #15dd51;
+    width: 100%;
+    margin-top: 15px;
+    padding: 5px 25px;
+    justify-content: center;
+    font-size: 24px;
 }
 
 .newslater-img-container{
@@ -559,7 +587,12 @@ footer{
 
 .copyright{
     text-align: center;
-    margin: 20px 0px 100px 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+.dev{
+    text-align: center;
+    padding: 10px 0px 100px 0px;
 }
 
 
@@ -826,11 +859,286 @@ footer{
   }
 
   .copyright{
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     margin: 0;
   }
 
 /* ====== Footer responsive end for mobile end ========== */
     
 }
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+/* ===== Header responsive start for mobile start ============ */
+    
+    header{
+        background-color: #fff;
+    }
+
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .menu{
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu > ul {
+        flex-direction: column;
+        text-align: center;
+        background-color: #eb4c29;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .menu > ul > li {
+        background-color: #eb4c29;
+        margin: 10px;
+        font-size: 24px;
+    } 
+
+    .menu > ul > li > a {
+        color: #fff;
+    }
+
+    .menu > ul > li > a:hover {
+        color: #000;
+        background-color: #fff;
+        padding: 10px;
+    }
+
+/* ======== Header responsive end for mobile end ========== */
+
+
+
+/* ======== Banner responsive start for mobile start ========== */
+.banner-img-container{
+    height: auto;
+    width: 100%;
+}
+
+.banner-img{
+    width: 100%;
+    height: 600px;
+    filter: brightness(50%);
+}
+
+.banner-title {
+    padding-top: 50px;
+    font-size: 45px;
+  }
+
+
+
+  .input-group {
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .input{
+    width: 100%;
+    margin: 10px 5px;
+    border-radius: 5px;
+  }
+
+  .btn-style{
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .popular-btn{
+    margin-bottom: 50px;
+  }
+/* ======== Banner responsive end for mobile end ========== */
+
+
+
+
+/* ======== Popular packages responsive start for mobile start ========== */
+.popular{
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.popular-tour {
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .popular-img-container {
+    width: 100%;
+  }
+
+/* ======== Popular packages responsive end for mobile end ========== */
+
+
+/* ======== Gallery responsive start for mobile start ========== */
+.title {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .title-desc{
+    width: 100%;
+  }
+
+
+  .row-1{
+    flex-direction: column;
+  }
+
+  .img-area{
+    width: 100%;
+  }
+
+  .row-2{
+    flex-direction: column;
+  }
+
+  .img-area-25{
+    width: 100%;
+  }
+
+
+  .row-3{
+    flex-direction: column;
+  }
+
+  .img-area-35{
+    width: 100%;
+  }
+
+  .img-area-65{
+    width: 100%;
+  }
+/* ======== Gallery responsive end for mobile end ========== */
+
+
+
+
+/* ======== Why choose responsive start for mobile start ========== */
+
+.card-row {
+    flex-direction: column;
+  }
+
+  .card-1 {
+    padding: 30px 50px;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+
+  .card-2 {
+    padding: 30px 50px;
+    width: 100%;
+    margin: 25px 0px;
+  }
+
+  .card-3 {
+    padding: 30px 50px;
+    width: 100%;
+    margin: 0;
+  }  
+
+/* ======== Why choose responsive end for mobile end ========== */
+
+
+
+
+
+/* ======== Deals & Discount responsive start for mobile start ========== */
+
+
+
+
+
+/* ======== Deals & Discount responsive end for mobile end ========== */
+
+
+
+
+
+/* ======== newslater Section responsive start for mobile start ========== */
+.newslater-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+  .newslater {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 2px solid #eb4c29;
+  }
+
+
+.newslater-img-container {
+  width: 100%;
+  height: auto;
+}
+
+/* ======== newslater Section responsive end for mobile end ========== */
+
+
+
+/* ====== Footer responsive start for mobile start ========== */
+
+footer{
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.footer-content {
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    line-height: 26px;
+  }
+
+  .footer-logo {
+    width: 400px;
+  }
+
+  .icons {
+    text-align: center;
+    margin: 0px;
+  }
+
+  .footer-hr{
+    margin: 25px auto;
+    width: 90%;
+  }
+
+  .copyright{
+    padding-bottom: 0px;
+    margin: 0;
+  }
+
+/* ====== Footer responsive end for mobile end ========== */
+    
+}
+
 
